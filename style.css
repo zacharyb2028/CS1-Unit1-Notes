@@ -1,8 +1,27 @@
 Body {
     background: rgb(242, 239, 208);
-    color:rgb(12, 19, 219)
 }
+
+/* Select by TAG type */
+p {
+    color:rgb(103, 64, 3)
+}
+
+/* Select by ID name (unique) */
+#zach {
+    background:rgb(193, 242, 244)
+}
+
+/* Select by CLASS name (shared styles) */
+.uniform {
+    color:rgb(4, 14, 92)
+}
+
 h1 {
-    color: rgb(44, 16, 199) ;
-    background: rgba(237, 165, 8, 0.967)
+    color: rgb(28, 129, 36);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 42px;
+    text-align:center;
+    font-family:Impact;
 }
